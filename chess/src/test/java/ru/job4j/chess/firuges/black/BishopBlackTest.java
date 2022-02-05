@@ -18,7 +18,7 @@ public class BishopBlackTest {
     public void testC3CopyD4() {
         Figure b = new BishopBlack(Cell.C1);
         b = b.copy(Cell.E3);
-        assertThat(b.position(), is(Cell.E5));
+        assertThat(b.position(), is(Cell.E3));
     }
 
     @Test
